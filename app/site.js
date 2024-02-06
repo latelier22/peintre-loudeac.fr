@@ -1,35 +1,33 @@
 export const site = {
-  title: "KER PROTEC",
-  description: "KER PROTEC - Olivier GUREME- 07 71 84 91 07",
-  societe: "KER PROTEC",
-  SIRET: "53478675100022",
-  contact: "Olivier GUREME",
-  telephone: "0771849107",
-  adresse: "Place du général De Gaulle",
-  codePostal: "56450",
-  ville: "THEIX NOYALO",
-  email: "kerprotec56@gmail.com",
-  logo: { url: "images/logo-barre-du-haut.png", alt: "logo Ker PROTEC" },
-  Logo: { url: "images/logo-banniere.png", alt: "logo Ker PROTEC" },
+  title: "PRO PEINTURE",
+  description: "PRO Peinture - Dave MIQUEL- 07 80 60 40 44",
+  societe: "PRO COUVREUR ET NETTOYAGE",
+  SIRET: "88464374300013",
+  contact: "Dave MIQUEL",
+  telephone: "",
+  adresse: "ZI St Bugan",
+  codePostal: "22600",
+  ville: "LOUDEAC",
+  email: "contact@pro-couvreur.fr",
+  logo: { url: "images/logo-barre-du-haut.png", alt: "logo Pro peinture" },
+  Logo: { url: "images/logo-banniere.png", alt: "logo Pro peinture" },
 };
 
 export const menuItems = [
   { label: "Accueil", route: "/" },
-  { label: "ravalement", route: "/ravalement" },
-  { label: "Peinture & décoration", route: "/peinture-decoration" },
-  { label: "Nuanciers & marque partenaire", route: "/peinture-nuancier" },
-  { label: "Nettoyage", route: "/nettoyage" },
-  { label: "Nos réalisations", route: "/realisations" },
+  { label: "peinture exterieure", route: "/peinture-exterieure" },
+  { label: "Peinture interieure", route: "/peinture-interieure" },
+  { label: "Toitures", route: "/toiture" },
   { label: "Contact", route: "/contact" },
 ];
 
 export const cards = [
   {
-    title: "RAVALEMENT",
+    title: "PEINTURE-EXTERIEURE",
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
-    link: "/ravalement",
+    link: "/peinture-exterieure",
     url: "peinture-mur-exterieur.png",
     alt: "",
   },
@@ -39,7 +37,7 @@ export const cards = [
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
-    link: "/peinture-decoration",
+    link: "/peinture-interieure",
     url: "peinture-mur-interieur.png",
     alt: "",
   },
@@ -70,7 +68,6 @@ export const cards = [
     url: "menu-peinture-exterieure.png",
     alt: "",
   },
-
 ];
 
 export const cards2 = [
@@ -88,14 +85,13 @@ export const cards2 = [
 export const sections = [
   {
     title: "Qui sommes-nous?",
-    body: "KER PROTEC est spécialisé dans les travaux de peinture extérieure, le ravalement et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à ker protec et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques.",
+    body: "PRO PEINTURE est spécialisé dans les travaux de peinture extérieure, le peinture-exterieure et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à pro peinture et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques.",
   },
   {
     title: " NOS SAVOIRS FAIRE",
     body: (
       <ul className="list-disc pl-4">
-        <li>Peinture extérieure / ravalement</li>
-        <li>Peinture intérieure / décoration</li>
+        <li>Peinture extérieure</li>
         <li>Nettoyage et peinture de toiture</li>
       </ul>
     ),
@@ -110,7 +106,7 @@ export const listesActions = [
     actions: [""],
   },
   {
-    title: "RAVALEMENT",
+    title: "PEINTURE-EXTERIEURE",
     subTitle: "",
     photo: { url: "", alt: "" },
     actions: ["", "", ""],
@@ -143,28 +139,7 @@ export const listesActions = [
 ];
 
 export const Pages = {
-  entretien: {
-    title: "Entretien",
-    description: "",
-    photos: [
-      { url: "entretien-1.png", alt: "gallery" },
-      { url: "entretien-2.png", alt: "gallery" },
-      { url: "entretien-3.png", alt: "gallery" },
-      { url: "entretien-4.png", alt: "gallery" },
-    ],
-    sections: [
-      {
-        title: "NOS SAVOIR FAIRE :",
-        body: (
-          <ul className="list-disc text-gold-400 pl-4">
-            <li></li>
-          </ul>
-        ),
-      },
-    ],
-    cards: [],
-  },
-  "peinture-decoration": {
+  "peinture-interieure": {
     title: "Peinture intérieure",
     description: "",
     photos: [
@@ -231,64 +206,7 @@ export const Pages = {
     cards: [],
   },
 
-  "peinture-nuancier": {
-    title: "Peintures & nuanciers",
-    description: "",
-    photos: [
-      { url: "peinture-nuancier-1.png", alt: "peinture et nuancier" },
-      { url: "peinture-nuancier-2.png", alt: "peinture et nuancier" },
-      { url: "peinture-nuancier-3.png", alt: "peinture et nuancier" },
-      { url: "peinture-nuancier-4.png", alt: "peinture et nuancier" },
-    ],
-    sections: [
-      {
-        title: "LA COULEUR:",
-        body: (
-          <ul className="list-disc pl-4">
-            <li>
-              La couleur est un concept universel qui ne se limite pas à une
-              représentativité de teintes.{" "}
-            </li>
-
-            <li>
-              Elle est l’élément créatif qui assure le lien entre décoration et
-              émotion, elle fait écho à la sensibilité de chacun, à son histoire
-              et est le reflet de notre personnalité et de nos envies éphémères.{" "}
-            </li>
-            <li>
-              Chaque teinte évoque de manière intime un reflet de notre
-              personnalité ou de notre vie.
-            </li>
-          </ul>
-        ),
-      },
-
-      {
-        title: "LES NUANCIERS:",
-        body: (
-          <ul className="list-disc pl-4">
-            <li>
-              Ces palettes de teintes sont l’aboutissement du travail d’experts
-              de la couleur alliant style, modernisme et authenticité.
-            </li>
-            <li>
-              Cette offre de teintes utilisables en intérieur et en extérieur
-              est scindée en:32 teintes Lumières où douceur rime avec précision.
-              1288 teintes Iconiques déclinées de la plus claire à la plus
-              foncée permettant d’offrir une vision subtile de chaque couleur
-              réalisable.
-            </li>
-            <li>
-              Chaque teinte est identifiée via une référence unique favorisant
-              ainsi la facilité de lecture de notre offre couleur
-            </li>
-          </ul>
-        ),
-      },
-    ],
-    cards: [],
-  },
-  nettoyage: {
+  toiture: {
     title: "NETTOYAGE",
     description: "",
     photos: [
@@ -305,156 +223,136 @@ export const Pages = {
         title: "Pourquoi procéder au nettoyage de votre toiture ?",
         body: (
           <>
-            <p>
-              {" "}
-              Le toit est la partie d&apos;une maison la plus exposée aux
-              intempéries. La pluie, le soleil, et le vent peuvent avoir un
-              impact sur lui. L&apos;air ambiant transporte une quantité importante
-              d&apos;organismes vivants. Au nombre de ceux-ci se trouvent la mousse
-              et les lichens qui peuvent se poser sur n&apos;importe quel support.
-              Sous l&apos;action de l&apos;eau pluviale, ces indésirables prennent
-              d&apos;assaut les toitures et y prolifèrent. Ils réussissent à vite se
-              répandre sur les couvertures parce qu&apos;elles sont faites avec des
-              matériaux qui sont pour la plupart poreux. Les lichens et les
-              mousses y trouvent donc de l&apos;humidité et se développent.
-            </p>
-          </>
-        ),
-      },
-      {
-        title:
-          "Comment leur propagation affecte-t-elle la longévité d'un édifice ?",
-        body: (
-          <>
-            <p>
-              {" "}
-              Les matériaux sont les premiers qu&apos;ils attaquent. Ils les rendent
-              plus poreux et les fragilisent en y occasionnant des cassures, des
-              fissures ou des éclatements. Cela crée des infiltrations dans le
-              bâtiment. De plus, cette couche de végétation détruit l&apos;esthétique
-              du toit, obstrue les chéneaux et surcharge la charpente. Ces deux
-              premières actions des lichens et des mousses se soldent par la
-              dégradation de l&apos;isolation thermique de la maison. Vos équipements
-              de chauffage consommeront alors plus d&apos;énergie électrique que
-              nécessaire. Pour toutes ces raisons, vous devez périodiquement
-              nettoyer votre toit pour assurer sa longévité.
-            </p>
-          </>
-        ),
-      },
-      {
-        title: "IMPORTANCE DE LA PEINTURE TOITURE",
-        body: (
-          <>
-            <p>
-              {" "}
-              La peinture pour toiture préserve les surfaces minérales inclinées
-              des différentes sollicitations extérieures. Elle offre une
-              excellente tenue au jaunissement, au blanchiment ou à la
-              décoloration. Elle assure une excellente résistance face au milieu
-              marin, urbain ou industriel. Elle empêche les salissures
-              d&apos;encrasser les couvertures grâce à un très bon effet
-              auto-nettoyant.
-            </p>
-            <p>
-              Cette peinture toiture hydrofuge permet de résister efficacement
-              face aux milieux difficiles comme les pluies, les orages, les
-              ruissellements ou autres intempéries. Elle permet de renforcer un
-              matériau qui devient trop poreux, trop perméable ou plus
-              suffisamment étanche au fil du temps. Elle améliore également le
-              rendu esthétique d&apos;un toit ou d&apos;une couverture.
-            </p>
-          </>
-        ),
-      },
-    ],
-    cards: [],
-  },
-  realisations: {
-    title: "Nos réalisations",
-    description: "",
-    photos: [
-      { url: "chantier-01-1.jpeg", alt: "" },
-      { url: "chantier-01-2.jpeg", alt: "" },
-      { url: "chantier-01-3.jpeg", alt: "" },
-      { url: "chantier-01-4.jpeg", alt: "" },
-      { url: "chantier-01-5.jpeg", alt: "" },
-      { url: "chantier-01-6.jpeg", alt: "" },
-      { url: "chantier-01-7.jpeg", alt: "" },
-      { url: "chantier-01-8.jpeg", alt: "" },
-      { url: "chantier-01-9.jpeg", alt: "" },
-      { url: "chantier-01-10.jpeg", alt: "" },
-      { url: "chantier-01-11.jpeg", alt: "" },
-      { url: "chantier-01-12.jpeg", alt: "" },
-      { url: "realisations-1.jpeg", alt: "" },
-      { url: "realisations-2.jpeg", alt: "" },
-      { url: "realisations-3.jpeg", alt: "" },
-      { url: "realisations-4.jpeg", alt: "" },
-      { url: "realisations-5.jpeg", alt: "" },
-      { url: "realisations-6.jpeg", alt: "" },
-      { url: "realisations-7.jpeg", alt: "" },
-      { url: "realisations-8.jpeg", alt: "" },
-      { url: "realisations-9.jpeg", alt: "" },
-      { url: "realisations-10.jpeg", alt: "" },
-      { url: "realisations-11.jpeg", alt: "" },
-      { url: "realisations-12.jpeg", alt: "" },
-      { url: "realisations-13.jpeg", alt: "" },
-      { url: "realisations-14.jpeg", alt: "" },
-      { url: "realisations-15.jpeg", alt: "" },
-      { url: "realisations-16.jpeg", alt: "" },
-    ],
-    sections: [
-      {
-        title: "NOS SAVOIR FAIRE :",
-        body: (
-          <ul className="list-disc pl-4">
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        ),
-      },
-    ],
-    cards: [],
-  },
-  ravalement: {
-    title: "Ravalements",
-    description: "",
-    photos: [
-      { url: "ravalement-1-1.jpeg", alt: "gallery" },
-      { url: "ravalement-1-2.jpeg", alt: "gallery" },
-      { url: "ravalement-1-3.jpeg", alt: "gallery" },
-      { url: "ravalement-1-4.jpeg", alt: "gallery" },
-      { url: "ravalement-1-5.jpeg", alt: "gallery" },
-      { url: "ravalement-1-6.jpeg", alt: "gallery" },
-      { url: "ravalement-1-7.jpeg", alt: "gallery" },
-    ],
-    sections: [
-      {
-        title:
-          "UNE NOUVELLE PEINTURE DE FACADE POUR VOTRE MAISON? KER PROTEC !",
-        body: (
-          <p>
-            {" "}
-            Spécialistes des travaux de peinture extérieure, nous vous proposons
-            un grand choix de peintures adaptées aux revêtements extérieurs. Nos
-            produits recouvrent efficacement les petites aspérités des murs et
-            protègent sur le long terme votre construction. Un enduit fissuré,
-            un crépi effrité, une peinture écaillée… Confiez votre projet de
-            ravalement de façade à nos professionnels.
-          </p>
-        ),
-      },
+            <h2>Importance de nettoyer et peindre une toiture</h2>
 
+            <ol>
+              <li>
+                <strong>Protection contre les éléments :</strong> La toiture est
+                constamment exposée aux intempéries, aux rayons UV du soleil, à
+                la pluie, à la neige et au vent. Un revêtement de peinture de
+                qualité peut agir comme une barrière protectrice supplémentaire,
+                prolongeant ainsi la durée de vie de votre toiture et réduisant
+                les risques de dommages causés par les éléments.
+              </li>
+              <li>
+                <strong>Prévention des fuites et des infiltrations :</strong>{" "}
+                Une toiture endommagée ou vieillissante est plus susceptible de
+                développer des fuites et des infiltrations d'eau, ce qui peut
+                entraîner des problèmes majeurs tels que des dommages
+                structurels, des moisissures et des pourritures. En nettoyant et
+                en peignant votre toiture régulièrement, vous renforcez son
+                étanchéité et réduisez le risque de fuites.
+              </li>
+              <li>
+                <strong>Amélioration de l'efficacité énergétique :</strong> Une
+                toiture bien entretenue et correctement peinte peut contribuer à
+                améliorer l'efficacité énergétique de votre maison. En
+                réfléchissant une partie de la chaleur du soleil, une peinture
+                réfléchissante peut aider à réduire la chaleur absorbée par
+                votre toiture, ce qui peut réduire la charge de votre système de
+                climatisation et vous faire économiser sur les coûts
+                énergétiques.
+              </li>
+              <li>
+                <strong>Esthétique et valeur de revente :</strong> Une toiture
+                propre et fraîchement peinte améliore l'aspect esthétique de
+                votre maison, ce qui peut avoir un impact positif sur sa valeur
+                de revente. Une toiture bien entretenue donne une impression de
+                soin et de diligence aux acheteurs potentiels, ce qui peut se
+                traduire par une valeur de revente plus élevée et une vente plus
+                rapide.
+              </li>
+            </ol>
+
+            <p>
+              En résumé, nettoyer et peindre votre toiture régulièrement est
+              essentiel pour assurer sa durabilité, prévenir les dommages,
+              améliorer l'efficacité énergétique de votre maison et maintenir
+              son attrait esthétique et sa valeur de revente. C'est donc un
+              investissement judicieux dans la protection et la valeur à long
+              terme de votre propriété.
+            </p>
+          </>
+        ),
+      },
+    ],
+    cards: [],
+  },
+
+  "peinture-exterieure": {
+    title: "Peinture exterieure",
+    description: "",
+    photos: [
+      { url: "peinture-exterieure-1-1.png", alt: "gallery" },
+      { url: "peinture-exterieure-1-2.png", alt: "gallery" },
+      // { url: "peinture-exterieure-1-3.jpeg", alt: "gallery" },
+      // { url: "peinture-exterieure-1-4.jpeg", alt: "gallery" },
+      // { url: "peinture-exterieure-1-5.jpeg", alt: "gallery" },
+      // { url: "peinture-exterieure-1-6.jpeg", alt: "gallery" },
+      // { url: "peinture-exterieure-1-7.jpeg", alt: "gallery" },
+    ],
+    sections: [
       {
-        title: "LES DIFFÉRENTES ÉTAPES D’UN RAVALEMENT DE FAÇADE :",
+        title:
+          "Importance du nettoyage et de la peinture des extérieurs d'une maison",
         body: (
-          <ul className="list-disc pl-4">
-            <li>La préparation du chantier</li>
-            <li>Le nettoyage ou le décapage de la façade</li>
-            <li>La réparation et le traitement des murs</li>
-            <li>La protection et/ou l’embellissement.</li>
-          </ul>
+          <>
+            <h2>
+              
+            </h2>
+
+            <ol>
+              <li>
+                <strong>Protection contre les intempéries :</strong> Les
+                peintures extérieures agissent comme une barrière protectrice
+                contre les intempéries, les rayons UV du soleil, la pluie, la
+                neige et le vent. Une peinture de qualité peut protéger les
+                surfaces extérieures de votre maison contre la décoloration, la
+                dégradation et les dommages causés par les éléments.
+              </li>
+              <li>
+                <strong>
+                  Prévention de la pourriture et de la moisissure :
+                </strong>{" "}
+                Les surfaces extérieures non peintes ou mal entretenues sont
+                plus susceptibles de développer de la pourriture et de la
+                moisissure, en particulier dans les zones humides. Une couche de
+                peinture bien entretenue peut protéger les matériaux de
+                construction de votre maison contre l'humidité excessive,
+                prévenir la pourriture du bois et réduire le risque de
+                croissance de la moisissure.
+              </li>
+              <li>
+                <strong>Amélioration de l'apparence esthétique :</strong> La
+                peinture extérieure joue un rôle essentiel dans l'apparence
+                générale de votre maison. Une nouvelle couche de peinture peut
+                rafraîchir l'apparence extérieure de votre maison, améliorer sa
+                netteté et son attrait visuel, et même augmenter sa valeur de
+                revente.
+              </li>
+              <li>
+                <strong>
+                  Protection des surfaces contre l'usure et la dégradation :
+                </strong>{" "}
+                Les surfaces extérieures de votre maison sont soumises à une
+                usure constante due aux intempéries, à l'exposition aux rayons
+                UV, à la saleté, à la poussière et à d'autres facteurs
+                environnementaux. La peinture extérieure peut agir comme une
+                couche protectrice pour ces surfaces, prolongeant ainsi leur
+                durée de vie et réduisant la nécessité de réparations coûteuses.
+              </li>
+            </ol>
+
+            <p>
+              En conclusion, nettoyer et peindre les peintures extérieures d'une
+              maison régulièrement est essentiel pour assurer leur protection
+              contre les éléments, prévenir la pourriture et la moisissure,
+              améliorer l'apparence esthétique de la maison et protéger les
+              surfaces extérieures contre l'usure et la dégradation. C'est un
+              investissement important dans la durabilité, l'attrait et la
+              valeur à long terme de votre propriété.
+            </p>
+          </>
         ),
       },
     ],

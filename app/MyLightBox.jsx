@@ -28,7 +28,7 @@ const MyLightBox = ({ photos }) => {
           src={`images/${photo.url}`}
           data-te-img={`images/${photo.url}`}
           alt={photo.alt}
-          className={`mb-5 w-72 h-72 object-cover object-center cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto`}
+          className={`mb-5 w-96 h-auto object-cover object-center cursor-zoom-in data-[te-lightbox-disabled]:cursor-auto`}
         />
       </div>
     ))}

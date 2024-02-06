@@ -11,7 +11,7 @@ import {cards, cards2, sections} from "./site"
 const Home = () => {
   // Dynamic metadata for the home page
   const pageTitle = "Accueil";
-  const pageDescription = "Bienvenue sur le site de KER PROTEC";
+  const pageDescription = "Bienvenue sur le site de PRO PEINTURE";
 
   // DÃ©clarer les photos dans un tableau d&apos;objets
   const photos = [];

@@ -19,7 +19,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-sky-600 text-center text-white dark:bg-neutral-900 dark:text-gold-400">
+    <footer className=" bg-myorange-600 text-center text-white dark:bg-neutral-900 dark:text-gold-400">
       <div className="flex items-center justify-center border-neutral-200 p-6 dark:border-neutral-500 lg:justify-end">
         <div className="mr-12 hidden md:block">
           <span>Restons en contact sur les réseaux sociaux</span>
@@ -43,7 +43,7 @@ const Footer = () => {
           <Title title = "Besoin d'un travail de peinture de qualité ?" />
           <p className="mb-4 text-white">Contactez-nous!</p>
           <p className="mb-4 text-white">
-            Nous intervenons tout autour de Vannes, dans les délais les plus brefs
+            Nous intervenons tout autour de Loudéac.
           </p>
         </div>
 
@@ -69,7 +69,7 @@ const Footer = () => {
             <h5 className="mb-2.5 font-bold text-yellow-500 dark:text-neutral-200">
               {/* DEVIS GRATUIT ! */}
             </h5>
-            <img src="images/picto-devis-gratuit.png" className="h-60  " alt="..." />
+            <img src="images/photo-devis-gratuit copy.png" className="h-60  " alt="..." />
           </div>
 
           <div className="mb-6">
