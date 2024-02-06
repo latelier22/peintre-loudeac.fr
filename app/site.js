@@ -237,16 +237,16 @@ export const Pages = {
               <li>
                 <strong>Prévention des fuites et des infiltrations :</strong>{" "}
                 Une toiture endommagée ou vieillissante est plus susceptible de
-                développer des fuites et des infiltrations d'eau, ce qui peut
+                développer des fuites et des infiltrations d&apos;eau, ce qui peut
                 entraîner des problèmes majeurs tels que des dommages
                 structurels, des moisissures et des pourritures. En nettoyant et
                 en peignant votre toiture régulièrement, vous renforcez son
                 étanchéité et réduisez le risque de fuites.
               </li>
               <li>
-                <strong>Amélioration de l'efficacité énergétique :</strong> Une
+                <strong>Amélioration de l&apos;efficacité énergétique :</strong> Une
                 toiture bien entretenue et correctement peinte peut contribuer à
-                améliorer l'efficacité énergétique de votre maison. En
+                améliorer l&apos;efficacité énergétique de votre maison. En
                 réfléchissant une partie de la chaleur du soleil, une peinture
                 réfléchissante peut aider à réduire la chaleur absorbée par
                 votre toiture, ce qui peut réduire la charge de votre système de
@@ -255,7 +255,7 @@ export const Pages = {
               </li>
               <li>
                 <strong>Esthétique et valeur de revente :</strong> Une toiture
-                propre et fraîchement peinte améliore l'aspect esthétique de
+                propre et fraîchement peinte améliore l&apos;aspect esthétique de
                 votre maison, ce qui peut avoir un impact positif sur sa valeur
                 de revente. Une toiture bien entretenue donne une impression de
                 soin et de diligence aux acheteurs potentiels, ce qui peut se
@@ -267,8 +267,8 @@ export const Pages = {
             <p>
               En résumé, nettoyer et peindre votre toiture régulièrement est
               essentiel pour assurer sa durabilité, prévenir les dommages,
-              améliorer l'efficacité énergétique de votre maison et maintenir
-              son attrait esthétique et sa valeur de revente. C'est donc un
+              améliorer l&apos;efficacité énergétique de votre maison et maintenir
+              son attrait esthétique et sa valeur de revente. C&apos;est donc un
               investissement judicieux dans la protection et la valeur à long
               terme de votre propriété.
             </p>
@@ -318,25 +318,25 @@ export const Pages = {
                 plus susceptibles de développer de la pourriture et de la
                 moisissure, en particulier dans les zones humides. Une couche de
                 peinture bien entretenue peut protéger les matériaux de
-                construction de votre maison contre l'humidité excessive,
+                construction de votre maison contre l&apos;humidité excessive,
                 prévenir la pourriture du bois et réduire le risque de
                 croissance de la moisissure.
               </li>
               <li>
-                <strong>Amélioration de l'apparence esthétique :</strong> La
-                peinture extérieure joue un rôle essentiel dans l'apparence
+                <strong>Amélioration de l&apos;apparence esthétique :</strong> La
+                peinture extérieure joue un rôle essentiel dans l&apos;apparence
                 générale de votre maison. Une nouvelle couche de peinture peut
-                rafraîchir l'apparence extérieure de votre maison, améliorer sa
+                rafraîchir l&apos;apparence extérieure de votre maison, améliorer sa
                 netteté et son attrait visuel, et même augmenter sa valeur de
                 revente.
               </li>
               <li>
                 <strong>
-                  Protection des surfaces contre l'usure et la dégradation :
+                  Protection des surfaces contre l&apos;usure et la dégradation :
                 </strong>{" "}
                 Les surfaces extérieures de votre maison sont soumises à une
-                usure constante due aux intempéries, à l'exposition aux rayons
-                UV, à la saleté, à la poussière et à d'autres facteurs
+                usure constante due aux intempéries, à l&apos;exposition aux rayons
+                UV, à la saleté, à la poussière et à d&apos;autres facteurs
                 environnementaux. La peinture extérieure peut agir comme une
                 couche protectrice pour ces surfaces, prolongeant ainsi leur
                 durée de vie et réduisant la nécessité de réparations coûteuses.
@@ -344,12 +344,12 @@ export const Pages = {
             </ol>
 
             <p>
-              En conclusion, nettoyer et peindre les peintures extérieures d'une
+              En conclusion, nettoyer et peindre les peintures extérieures d&apos;une
               maison régulièrement est essentiel pour assurer leur protection
               contre les éléments, prévenir la pourriture et la moisissure,
-              améliorer l'apparence esthétique de la maison et protéger les
-              surfaces extérieures contre l'usure et la dégradation. C'est un
-              investissement important dans la durabilité, l'attrait et la
+              améliorer l&apos;apparence esthétique de la maison et protéger les
+              surfaces extérieures contre l&apos;usure et la dégradation. C&apos;est un
+              investissement important dans la durabilité, l&apos;attrait et la
               valeur à long terme de votre propriété.
             </p>
           </>
