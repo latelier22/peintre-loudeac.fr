@@ -33,7 +33,7 @@ export const cards = [
   },
 
   {
-    title: "PEINTURE & DECORATION",
+    title: "PEINTURE INTERIEURE",
     text: "",
     button: "Détail",
     buttonColor: "bg-gold-500",
@@ -41,17 +41,9 @@ export const cards = [
     url: "peinture-mur-interieur.png",
     alt: "",
   },
+  
   {
-    title: "NUANCIERS et MARQUE PARTENAIRE",
-    text: "",
-    button: "",
-    buttonColor: "bg-gold-500",
-    link: "/peinture-nuancier",
-    url: "peinture-nuancier-4.png",
-    alt: "",
-  },
-  {
-    title: "NETTOYAGE",
+    title: "TOITURES",
     text: "",
     button: "",
     buttonColor: "bg-gold-500",
@@ -59,15 +51,7 @@ export const cards = [
     url: "realisations-13.jpeg",
     alt: "",
   },
-  {
-    title: "NOS REALISATIONS",
-    text: "",
-    button: "",
-    buttonColor: "bg-gold-500",
-    link: "/realisations",
-    url: "menu-peinture-exterieure.png",
-    alt: "",
-  },
+  
 ];
 
 export const cards2 = [
@@ -85,7 +69,7 @@ export const cards2 = [
 export const sections = [
   {
     title: "Qui sommes-nous?",
-    body: "PRO PEINTURE est spécialisé dans les travaux de peinture extérieure, le peinture-exterieure et la rénovation des façades. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à pro peinture et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques.",
+    body: "PRO PEINTURE est spécialisé dans les travaux de peinture extérieure, la rénovation des façades et des toitures. Pour tous types de bâtiment, votre peintre vous propose des solutions pratiques pour mettre en valeur votre extérieur. Veillant à la qualité de ses réalisations, votre peintre d’extérieur, utilise des produits de qualité et respectueux à l’environnement. il vous garantit des prestations de qualité irréprochable dans le respect de l’environnement et des normes en vigueur. Doté d’un sens esthétique créatif, votre expert en peinture extérieure saura vous conseiller la couleur la plus harmonieuse avec votre décoration. Confiez vos travaux de peinture extérieure à pro peinture et profitez d’un extérieur bien entretenu et protégé contre les changements climatiques.",
   },
   {
     title: " NOS SAVOIRS FAIRE",
@@ -100,21 +84,21 @@ export const sections = [
 
 export const listesActions = [
   {
-    title: "ENTRETIEN",
+    title: "PEINTURE EXTERIEURES",
     subTitle: "",
-    photo: { url: "Rectangle_8.png", alt: "" },
-    actions: [""],
-  },
-  {
-    title: "PEINTURE-EXTERIEURE",
-    subTitle: "",
-    photo: { url: "", alt: "" },
-    actions: ["", "", ""],
+    photo: { url: "peinture-mur-exterieur.png", alt: "" },
+    actions: ["Ravalement"],
   },
   {
     title: "PEINTURE INTERIEURE",
     subTitle: "",
-    photo: { url: "", alt: "" },
+    photo: { url: "peinture-mur-interieur.png", alt: "" },
+    actions: ["", "", ""],
+  },
+  {
+    title: "NETTOYAGE ET PEINTURE TOITURES",
+    subTitle: "",
+    photo: { url: "realisations-13.jpeg", alt: "" },
     actions: ["", "", ""],
   },
 

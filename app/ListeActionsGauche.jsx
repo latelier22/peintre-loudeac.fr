@@ -21,7 +21,7 @@ const ListeActionsGauche = ({
   console.log(photo);
 
   return (
-<div className={`container mx-auto px-5 py-2 lg:px-32 lg:pt-12 ${gauche ? "animate-slideLeft" : "animate-slideRight"}`}>
+<div className={`container mx-auto w-full my-8  border-myorange-600  rounded-xl border-solid border-2 ${gauche ? "animate-slideLeft" : "animate-slideRight"}`}>
   <div className={`flex flex-col items-center ${gauche ? bgColor : ""}`}>
     <div className="flex flex-col md:flex-row align-middle items-center">
       <img
@@ -33,7 +33,7 @@ const ListeActionsGauche = ({
         }
         src={`images/${photo.url}`}
       />
-          <section className="container mx-auto mt-8 p-4">
+          <section className="container mx-auto mt-8 ">
             <h1
               className="text-4xl font-bold text-center mb-4"
               style={{ fontFamily: "knicknack-font" }}
