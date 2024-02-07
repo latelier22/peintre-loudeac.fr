@@ -1,14 +1,14 @@
 export const site = {
   title: "PRO PEINTURE",
   description: "PRO Peinture - Dave MIQUEL- 07 80 60 40 44",
-  societe: "PRO COUVREUR ET NETTOYAGE",
+  societe: "PRO PEINTURE Loudéac",
   SIRET: "88464374300013",
   contact: "Dave MIQUEL",
-  telephone: "",
-  adresse: "ZI St Bugan",
+  telephone: "0780577659",
+  adresse: "Lieu-dit Cojean",
   codePostal: "22600",
   ville: "LOUDEAC",
-  email: "contact@pro-couvreur.fr",
+  email: "miquelartisan22@gmail.com",
   logo: { url: "images/logo-barre-du-haut.png", alt: "logo Pro peinture" },
   Logo: { url: "images/logo-banniere.png", alt: "logo Pro peinture" },
 };
